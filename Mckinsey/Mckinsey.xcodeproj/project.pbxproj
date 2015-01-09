@@ -14,6 +14,7 @@
 		5B4DD7BE1A5FA345003BB540 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DD7BD1A5FA345003BB540 /* Images.xcassets */; };
 		5B4DD7C11A5FA345003BB540 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DD7BF1A5FA345003BB540 /* LaunchScreen.xib */; };
 		5B4DD7CD1A5FA345003BB540 /* MckinseyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DD7CC1A5FA345003BB540 /* MckinseyTests.m */; };
+		5B4DD7D81A5FCE47003BB540 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DD7D71A5FCE47003BB540 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5B4DD7C61A5FA345003BB540 /* MckinseyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MckinseyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4DD7CB1A5FA345003BB540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4DD7CC1A5FA345003BB540 /* MckinseyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MckinseyTests.m; sourceTree = "<group>"; };
+		5B4DD7D61A5FCE47003BB540 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B4DD7D71A5FCE47003BB540 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				5B4DD7B41A5FA345003BB540 /* AppDelegate.h */,
 				5B4DD7B51A5FA345003BB540 /* AppDelegate.m */,
+				5B4DD7D61A5FCE47003BB540 /* SecondViewController.h */,
+				5B4DD7D71A5FCE47003BB540 /* SecondViewController.m */,
 				5B4DD7B71A5FA345003BB540 /* ViewController.h */,
 				5B4DD7B81A5FA345003BB540 /* ViewController.m */,
 				5B4DD7BA1A5FA345003BB540 /* Main.storyboard */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4DD7D81A5FCE47003BB540 /* SecondViewController.m in Sources */,
 				5B4DD7B91A5FA345003BB540 /* ViewController.m in Sources */,
 				5B4DD7B61A5FA345003BB540 /* AppDelegate.m in Sources */,
 				5B4DD7B31A5FA345003BB540 /* main.m in Sources */,
@@ -414,6 +420,7 @@
 				5B4DD7D21A5FA345003BB540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B4DD7D31A5FA345003BB540 /* Build configuration list for PBXNativeTarget "MckinseyTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				5B4DD7D51A5FA345003BB540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
