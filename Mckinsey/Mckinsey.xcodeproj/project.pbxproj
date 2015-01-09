@@ -15,7 +15,6 @@
 		5B4DD7C11A5FA345003BB540 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DD7BF1A5FA345003BB540 /* LaunchScreen.xib */; };
 		5B4DD7CD1A5FA345003BB540 /* MckinseyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DD7CC1A5FA345003BB540 /* MckinseyTests.m */; };
 		5B4DD7D81A5FCE47003BB540 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DD7D71A5FCE47003BB540 /* SecondViewController.m */; };
-		5B4DD7DE1A5FE20D003BB540 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DD7DD1A5FE20D003BB540 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 		5B4DD7CC1A5FA345003BB540 /* MckinseyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MckinseyTests.m; sourceTree = "<group>"; };
 		5B4DD7D61A5FCE47003BB540 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		5B4DD7D71A5FCE47003BB540 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		5B4DD7DC1A5FE20D003BB540 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		5B4DD7DD1A5FE20D003BB540 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +94,6 @@
 				5B4DD7BD1A5FA345003BB540 /* Images.xcassets */,
 				5B4DD7BF1A5FA345003BB540 /* LaunchScreen.xib */,
 				5B4DD7B01A5FA345003BB540 /* Supporting Files */,
-				5B4DD7DC1A5FE20D003BB540 /* ThirdViewController.h */,
-				5B4DD7DD1A5FE20D003BB540 /* ThirdViewController.m */,
 			);
 			path = Mckinsey;
 			sourceTree = "<group>";
@@ -230,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4DD7D81A5FCE47003BB540 /* SecondViewController.m in Sources */,
-				5B4DD7DE1A5FE20D003BB540 /* ThirdViewController.m in Sources */,
 				5B4DD7B91A5FA345003BB540 /* ViewController.m in Sources */,
 				5B4DD7B61A5FA345003BB540 /* AppDelegate.m in Sources */,
 				5B4DD7B31A5FA345003BB540 /* main.m in Sources */,
