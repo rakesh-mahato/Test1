@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 @property(nonatomic,strong) IBOutlet UILabel* firstScreenLbl;
-
+@property(nonatomic,strong) IBOutlet UIScrollView *scrlView;
 @end
 

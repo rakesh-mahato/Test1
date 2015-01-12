@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    _scrlView.backgroundColor = [UIColor blueColor];
+    [self addChildToScrollView];
 }
 
+// add Third View controller to scrollview
+-(void)addChildToScrollView{
+    //UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    ThirdViewController* thirdVC = [self.storyboard instantiateViewControllerWithIdentifier:@"Third"];
+    [self.scrlView addSubview:thirdVC.view];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
