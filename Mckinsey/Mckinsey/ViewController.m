@@ -10,7 +10,9 @@
 #import "SecondViewController.h"
 #import "ThirdViewController.h"
 @interface ViewController ()
-
+{
+    ThirdViewController* thirdVC;
+}
 @end
 
 @implementation ViewController
@@ -18,15 +20,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _scrlView.backgroundColor = [UIColor blueColor];
     [self addChildToScrollView];
 }
 
 // add Third View controller to scrollview
 -(void)addChildToScrollView{
-    //UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-    ThirdViewController* thirdVC = [self.storyboard instantiateViewControllerWithIdentifier:@"Third"];
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+     thirdVC = [storyboard instantiateViewControllerWithIdentifier:@"Third"];
+    thirdVC.view.frame = CGRectMake(0, 0, self.scrlView.frame.size.width, self.scrlView.frame.size.height);//self.scrlView.frame;
     [self.scrlView addSubview:thirdVC.view];
+    // If the subviews are to be resized.
+   [self setConstraintsLayout];
+}
+
+-(void)setConstraintsLayout{
+    thirdVC.widthConstraint.constant = 200;
+    thirdVC.heightContraint.constant = 200;
+    thirdVC.leadingSpaceConstraint.constant = 60;
+    thirdVC.TrailingSpaceConstraint.constant = 70;
+    thirdVC.MarginSpaceConstraint.constant = 50 ;
+    thirdVC.centreButterflyConstraint.constant = 1;
+    thirdVC.centreLabelConstraint.constant = 140;
+    thirdVC.topSpaceSuperViewConstraint.constant = 160;
+    [thirdVC updateViewConstraints];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -37,10 +53,13 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-   SecondViewController *destination =
-    [segue destinationViewController];
-    
-    destination.detailedText = @"Arrived from Scene 1";
+    if ([segue.identifier isEqualToString:@"Second"]) {
+        SecondViewController *destination =
+        [segue destinationViewController];
+        
+        destination.detailedText = @"Arrived from Scene 1";
+    }
+   
 }
 
 -(IBAction)returned:(UIStoryboardSegue *)segue {

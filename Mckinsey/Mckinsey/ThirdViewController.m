@@ -9,14 +9,25 @@
 #import "ThirdViewController.h"
 
 @interface ThirdViewController ()
-
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 @end
 
 @implementation ThirdViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImage *image = [UIImage imageNamed:@"Butterfly"];
+    
+    CGFloat xPos = self.view.frame.size.width/2 - image.size.width/2;
+    CGFloat yPos = self.view.frame.size.height/2 - image.size.height/2;
+
+    self.imageView.frame = CGRectMake(xPos, yPos, image.size.width, image.size.height);
+    
     // Do any additional setup after loading the view.
+    
+}
+-(void)viewDidAppear:(BOOL)animated{
+    
 }
 
 - (void)didReceiveMemoryWarning {

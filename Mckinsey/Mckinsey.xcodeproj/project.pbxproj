@@ -16,6 +16,7 @@
 		5B4DD7C11A5FA345003BB540 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DD7BF1A5FA345003BB540 /* LaunchScreen.xib */; };
 		5B4DD7CD1A5FA345003BB540 /* MckinseyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DD7CC1A5FA345003BB540 /* MckinseyTests.m */; };
 		5B4DD7D81A5FCE47003BB540 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DD7D71A5FCE47003BB540 /* SecondViewController.m */; };
+		5BC70F991A63C1650095FE43 /* Butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BC70F981A63C1650095FE43 /* Butterfly.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5B4DD7CC1A5FA345003BB540 /* MckinseyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MckinseyTests.m; sourceTree = "<group>"; };
 		5B4DD7D61A5FCE47003BB540 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		5B4DD7D71A5FCE47003BB540 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5BC70F981A63C1650095FE43 /* Butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Butterfly.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				5B4DD7B81A5FA345003BB540 /* ViewController.m */,
 				5B4DD7BA1A5FA345003BB540 /* Main.storyboard */,
 				5B4DD7BD1A5FA345003BB540 /* Images.xcassets */,
+				5BC70F981A63C1650095FE43 /* Butterfly.png */,
 				5B4DD7BF1A5FA345003BB540 /* LaunchScreen.xib */,
 				5B4DD7B01A5FA345003BB540 /* Supporting Files */,
 				5B343E7A1A62DD3000E7CA0A /* ThirdViewController.h */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4DD7BC1A5FA345003BB540 /* Main.storyboard in Resources */,
+				5BC70F991A63C1650095FE43 /* Butterfly.png in Resources */,
 				5B4DD7C11A5FA345003BB540 /* LaunchScreen.xib in Resources */,
 				5B4DD7BE1A5FA345003BB540 /* Images.xcassets in Resources */,
 			);
