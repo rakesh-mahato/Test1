@@ -97,7 +97,7 @@
                         <viewControllerLayoutGuide type="top" id="0qd-6v-AEr"/>
                         <viewControllerLayoutGuide type="bottom" id="jyb-Zs-QCG"/>
                     </layoutGuides>
-                    <view key="view" alpha="0.49999999999999961" contentMode="scaleToFill" id="pxc-eX-2Ks">
+                    <view key="view" contentMode="scaleToFill" id="pxc-eX-2Ks">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -111,7 +111,7 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly.png" translatesAutoresizingMaskIntoConstraints="NO" id="bgr-qP-0cd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly.png" translatesAutoresizingMaskIntoConstraints="NO" id="bgr-qP-0cd">
                                 <rect key="frame" x="108" y="149" width="384" height="302"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="302" id="9kk-fK-ijz"/>
@@ -119,7 +119,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.26057145390000003" green="1" blue="0.41696207369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="bgr-qP-0cd" secondAttribute="centerY" id="9oe-Ps-zu5"/>
                             <constraint firstItem="kaw-pX-zH5" firstAttribute="top" secondItem="bgr-qP-0cd" secondAttribute="bottom" constant="30" id="KDN-Pr-Dxc"/>

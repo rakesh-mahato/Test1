@@ -27,10 +27,10 @@
 -(void)addChildToScrollView{
     UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
      thirdVC = [storyboard instantiateViewControllerWithIdentifier:@"Third"];
-    thirdVC.view.frame = CGRectMake(0, 0, self.scrlView.frame.size.width, self.scrlView.frame.size.height);//self.scrlView.frame;
+    thirdVC.view.frame = CGRectMake(0, 0, self.scrlView.frame.size.width, self.scrlView.frame.size.height);
     [self.scrlView addSubview:thirdVC.view];
     // If the subviews are to be resized.
-   [self setConstraintsLayout];
+   //[self setConstraintsLayout];
 }
 
 -(void)setConstraintsLayout{
